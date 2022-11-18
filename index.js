@@ -18,7 +18,7 @@ const reducer=(state,act)=>{ //act can be a value or an object
 }
 
 function App(){
-  const [status,dispatched]=useReducer(reducer,count) //count can be a value or an object
+  const [status,dispatched]=useReducer(reducer,count) //count can be a value or an object. status takes value from the count for the first time.
   return(
   <div>
   {status}
